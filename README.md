@@ -215,21 +215,21 @@ Monthly Revenue
 
 September recorded the highest monthly revenue, with €1,183.71.
 
-
+Monthly%20Revenue.png
 
 
 Revenue by Category
 
 Electronics generated the largest share of revenue, accounting for approximately 65.3% of total revenue.
 
-
+Revenue%20by%20Category.png
 
 
 Revenue by Product
 
 Headphones generated the highest revenue among the products analyzed, with €959.88.
 
-
+Revenue%20by%20Product.png
 
 
 Additional SQL results and screenshots are available in the results/screenshots folder.
