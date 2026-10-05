@@ -7,13 +7,19 @@ The goal is to demonstrate how SQL can be used to transform raw transactional da
 
 The analysis focuses on:
 
-Sales revenue
-Product performance
-Category performance
-Customer purchasing behavior
-Monthly sales trends
-Average order value
-Business insights based on the available data
+Sales revenue;
+
+Product performance;
+
+Category performance;
+
+Customer purchasing behavior;
+
+Monthly sales trends;
+
+Average order value;
+
+Business insights based on the available data;
 
 The dataset is synthetic and was created specifically for this portfolio project.
 
@@ -22,34 +28,58 @@ Business Questions
 The analysis answers the following business questions:
 
 How many orders have we received?
+
 What is the total sales revenue?
+
 Which product generated the most revenue?
+
 Which product category generated the most revenue?
+
 Which customers have spent more than €200?
+
 How many orders has each customer placed?
+
 Which customers have placed at least 3 orders?
+
 Who are the highest-spending customers?
+
 What is the average order value (AOV)?
+
 Which products have sold the most units?
+
 Which products have generated the least revenue?
+
 How many units have we sold in each category?
+
 What is the monthly revenue?
+
 Which month generated the most revenue?
+
 What percentage of total revenue comes from each category?
+
+
 Database Schema
 
 The database consists of four related tables:
 
 customers
+
 products
+
 orders
+
 order_items
+
 Relationships
+
 customers
+
     ↓ customer_id
 orders
+
     ↓ order_id
 order_items
+
     ↓ product_id
 products
 
@@ -78,19 +108,35 @@ CSV
 SQL concepts used in the project include:
 
 SELECT
+
 WHERE
+
 ORDER BY
+
 GROUP BY
+
 HAVING
+
 COUNT
+
 SUM
+
 AVG
+
 JOIN
+
 Subqueries
+
 Aggregate functions
+
 Date functions
+
 Calculated fields
+
 Key Business Insights
+
+------------------
+
 Total Revenue
 
 The total revenue generated during the analyzed period was:
