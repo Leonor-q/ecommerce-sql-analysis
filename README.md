@@ -372,7 +372,7 @@ Build an interactive dashboard using Power BI or Tableau.
 
 ENDING NOTE:
 
-This project was created as part of my learning journey in SQL and data analysis. As this was my first project, I utilized AI as a learning and support tool to help me in this work, to better understand concepts and correct queries. All queries were written and executed in MySQL. 
+This project was created as part of my learning journey in SQL and data analysis. As this was my first project, I utilized AI as a learning and support tool, as well as to better understand concepts and correct queries. All queries were written and executed in MySQL. 
 
  -- Easter Egg -- 
 
