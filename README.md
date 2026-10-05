@@ -235,33 +235,41 @@ Revenue%20by%20Product.png
 Additional SQL results and screenshots are available in the results/screenshots folder.
 
 Project Structure
-ecommerce-sql-analysis/
-│
-├── README.md
-│
-├── data/
-│   ├── customers.csv
-│   ├── products.csv
-│   ├── orders.csv
-│   └── order_items.csv
-│
-├── sql/
-│   ├── 01_basic_queries.sql
-│   ├── 02_sales_analysis.sql
-│   ├── 03_customer_analysis.sql
-│   └── 04_product_analysis.sql
-│
-└── results/
-    └── screenshots/
-        ├── 01_Total_revenue.jpg
-        ├── 02_AOV.jpg
-        ├── 03_Total_revenue_per_category.jpg
-        ├── 04_Monthly_revenue.jpg
-        ├── 05_Top_product_by_revenue.jpg
-        ├── 06_highest_spending_customers.jpg
-        ├── Monthly Revenue.png
-        ├── Revenue by Category.png
-        └── Revenue by Product.png
+
+README.md
+→ Project overview, SQL analysis and key findings
+
+data/
+→ Dataset files
+
+customers.csv
+products.csv
+orders.csv
+order_items.csv
+
+sql/
+→ SQL queries
+
+01_basic_queries.sql
+02_sales_analysis.sql
+03_customer_analysis.sql
+04_product_analysis.sql
+
+results/
+→ Analysis results and screenshots
+
+results/screenshots/
+
+01_Total_revenue.jpg
+02_AOV.jpg
+03_Total_revenue_per_category.jpg
+04_Monthly_revenue.jpg
+05_Top_product_by_revenue.jpg
+06_highest_spending_customers.jpg
+Monthly Revenue.png
+Revenue by Category.png
+Revenue by Product.png
+
 How to Run
 1. Create the database
 
@@ -291,7 +299,6 @@ Basic analysis
 Sales analysis
 Customer analysis
 Product analysis
-Limitations
 
 This project uses a fictional and relatively small dataset.
 
@@ -307,8 +314,6 @@ The dataset cannot confirm the reasons behind changes in monthly revenue.
 
 These limitations are important when interpreting the results.
 
-Future Improvements
-
 Possible future improvements include:
 
 Add product cost data and calculate profit margins.
@@ -316,13 +321,18 @@ Add discount information.
 Add customer acquisition channels.
 Add marketing campaign data.
 Add more historical sales data.
-Analyze customer retention.
-Analyze repeat purchase behavior.
-Calculate customer lifetime value.
 Build an interactive dashboard using Power BI or Tableau.
-Add more advanced SQL analysis using CTEs and window functions.
+             ...
 
 ENDING NOTE:
 
-This project was created as part of my learning journey in SQL and data analysis with the help of AI. This was my first project thats why I resorted to use AI to help me in this work. Thank you for understanding.
+This project was created as part of my learning journey in SQL and data analysis. As this was my first project, I utilized AI as a learning and support tool to help me in this work, to better understand concepts and correct queries. All queries were written and executed in MySQL. 
+
+ -- Easter Egg -- 
+
+SELECT
+    'Leonor Quaresma' AS Bewerberin,
+    'Daten- und Prozessanalyse' AS Wunschbereich,
+    'SQL + Eigeninitiative + Lernbereitschaft' AS Skills,
+    'Super-Azubi' AS Prognose;
 
